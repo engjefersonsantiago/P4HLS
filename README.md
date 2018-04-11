@@ -4,6 +4,7 @@ C++ description of P4-compatible HLS modules.
 This repository implements P4-compatible modules for HLS-driven FPGA synthesis mainly relying in C++11 high-level descriptions.
 
 ## Requirements
++ Ubuntu 2016.4
 + Xilinx Vivado Design Suite V2017.4 (Vivado HLS is required)
 + Python 2.7
 + [p4c-bm compiler](https://github.com/engjefersonsantiago/p4c-bm)
