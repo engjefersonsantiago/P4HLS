@@ -6,6 +6,7 @@ This repository implements P4-compatible modules for HLS-driven FPGA synthesis m
 ## Requirements
 + Vivado Design Suite V2014.4
 + Python 2.7
++ [p4c-bm compiler](https://github.com/engjefersonsantiago/p4c-bm)
 
 ## Packet Parser
 For a detailed description please refer to the Parser folder.
