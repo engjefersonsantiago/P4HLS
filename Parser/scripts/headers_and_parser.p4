@@ -3,7 +3,7 @@
  */
 
 #define TEST_VAR_HEADER 0
-#define TESTABLE 1
+#define TESTABLE 0
 //#define BITNUM 992
 #define BITNUM 224
 

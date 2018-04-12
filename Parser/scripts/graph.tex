@@ -1,0 +1,29 @@
+\documentclass[12pt,landscape]{article}
+
+\usepackage{subfig}
+\usepackage{graphicx}
+\usepackage{geometry}
+\geometry{
+	a4paper,
+	total={170mm,257mm},
+	left=00mm,
+	top=-20mm,
+}
+
+\begin{document}
+
+\begin{figure*}[]
+	\subfloat[][Original P4 parser graph]
+	{
+		\includegraphics[width=8.25in]{full_graph.pdf}
+		\label{fig:graph:full_graph}
+	}
+	\subfloat[][Optimized parser graph]
+	{
+		\includegraphics[width=3in]{simpl_graph.pdf}
+		\label{fig:graph:simpl_graph}
+	}
+	\label{fig:graph}
+\end{figure*}
+
+\end{document}

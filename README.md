@@ -11,7 +11,7 @@ This repository implements P4-compatible modules for HLS-driven FPGA synthesis m
 
 ## Specific Packages
 ```console
-~$ sudo apt-get install libgnome2-bin python-dev graphviz libgraphviz-dev pkg-config
+~$ sudo apt-get install libgnome2-bin python-dev graphviz libgraphviz-dev pkg-config texlive
 ~$ sudo pip install pip networkx
 ~$ sudo pip install pygraphviz --install-option="--include-path=/usr/include/graphviz" --install-option="--library-path=/usr/lib/graphviz/" --upgrade --force-reinstall 
 ```
