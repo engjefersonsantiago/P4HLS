@@ -33,7 +33,7 @@ To cite the paper please use:
 + C++ files generation
 ```console
 ~$ cd scripts
-~$ ./gen_parser_pipe.sh <name of you P4 file> <pipeline bus size in bits>
+~$ ./gen_parser_pipe.sh <name of your P4 file> <pipeline bus size in bits>
 ~$ cd ..
 ```
 
