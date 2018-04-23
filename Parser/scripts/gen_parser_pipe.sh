@@ -11,7 +11,7 @@ if [ $? -ne 0 ]; then
 echo "P4 compilation failed"
 exit 1
 fi
-python generate_header_parser.py headers_and_parser.json $2 16
+python generate_header_parser.py $1.json $2 16
 pdflatex graph.tex  > /dev/null 2>&1
 gnome-open graph.pdf
 echo "Copying generated files to src directory"
